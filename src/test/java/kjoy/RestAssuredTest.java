@@ -5,9 +5,10 @@ import static org.junit.Assert.assertTrue;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
-import org.junit.Test;
+//import org.testng.Test;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 
 public class RestAssuredTest {
