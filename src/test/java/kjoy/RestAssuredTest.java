@@ -5,13 +5,18 @@ import static org.junit.Assert.assertTrue;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
-//import org.testng.Test;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.time.LocalDateTime;
+
 
 public class RestAssuredTest {
+
+    LocalDateTime currentTime = LocalDateTime.now();
+
+
     @BeforeTest
     public void initTest() {
     //RestAssured.baseURI  = "https://jsonplaceholder.typicode.com";
@@ -20,6 +25,7 @@ public class RestAssuredTest {
     @Test
     public void checkStatusCode()
     {
+        System.out.println("Current DateTime: " + currentTime);
         Response response = RestAssured.when()
                 .get("https://jsonplaceholder.typicode.com/users")
                 .andReturn();
@@ -29,6 +35,7 @@ public class RestAssuredTest {
 
     @Test
     public void checkHeader(){
+        System.out.println("Current DateTime: " + currentTime);
 
         Response response = RestAssured.when()
                 .get("https://jsonplaceholder.typicode.com/users")
@@ -41,6 +48,7 @@ public class RestAssuredTest {
 
     @Test
     public void checkResponse(){
+        System.out.println("Current DateTime: " + currentTime);
 
         Response response = RestAssured.when()
                 .get("https://jsonplaceholder.typicode.com/users")
