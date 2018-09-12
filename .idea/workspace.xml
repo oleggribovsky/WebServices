@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0c758d3a-12cc-4e65-8379-d8ae0bbbdc91" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/kjoy/RestAssuredTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kjoy/RestAssuredTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/kjoy/RestAssuredTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/kjoy/RestAssuredTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,38 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RestAssuredTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/kjoy/RestAssuredTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,8 +36,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/kjoy/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/kjoy/Post.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/kjoy/RestAssuredTest.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
       </list>
     </option>
   </component>
@@ -82,7 +52,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="7" />
     <option name="width" value="1920" />
     <option name="height" value="1040" />
@@ -93,6 +63,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,17 +128,10 @@
               <item name="kjoy" type="462c0819:PsiDirectoryNode" />
               <item name="RestAssuredTest" type="1a9f42e2:ClassTreeNode" />
             </path>
-            <path>
-              <item name="WebServices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebServices" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RestAssuredTest">
+  <component name="RunManager" selected="TestNG.C:/Users/aleg_hrybouski/IdeaProjects/WebServices/testng.xml">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -354,8 +319,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RestAssuredTest" />
         <item itemvalue="TestNG.C:/Users/aleg_hrybouski/IdeaProjects/WebServices/testng.xml" />
+        <item itemvalue="TestNG.RestAssuredTest" />
         <item itemvalue="JUnit.RestAssuredTest" />
         <item itemvalue="TestNG.C:/Users/aleg_hrybouski/IdeaProjects/WebServices/src/test/java/testng.xml" />
         <item itemvalue="TestNG.C:/Users/aleg_hrybouski/IdeaProjects/WebServices/src/test/testng.xml" />
@@ -373,27 +338,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_aleg_hrybouski_IdeaProjects_WebServices_testng_xml - 2018.09.10 at 23h 40m 24s.xml">
-      <configuration name="C:/Users/aleg_hrybouski/IdeaProjects/WebServices/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_aleg_hrybouski_IdeaProjects_WebServices_testng_xml - 2018.09.10 at 23h 40m 48s.xml">
-      <configuration name="C:/Users/aleg_hrybouski/IdeaProjects/WebServices/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_aleg_hrybouski_IdeaProjects_WebServices_testng_xml - 2018.09.10 at 23h 45m 33s.xml">
-      <configuration name="C:/Users/aleg_hrybouski/IdeaProjects/WebServices/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_aleg_hrybouski_IdeaProjects_WebServices_testng_xml - 2018.09.10 at 23h 48m 21s.xml">
-      <configuration name="C:/Users/aleg_hrybouski/IdeaProjects/WebServices/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RestAssuredTest - 2018.09.10 at 23h 51m 32s.xml">
-      <configuration name="RestAssuredTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="C__Users_aleg_hrybouski_IdeaProjects_WebServices_testng_xml - 2018.09.10 at 23h 52m 26s.xml">
-      <configuration name="C:/Users/aleg_hrybouski/IdeaProjects/WebServices/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_aleg_hrybouski_IdeaProjects_WebServices_testng_xml - 2018.09.10 at 23h 57m 26s.xml">
-      <configuration name="C:/Users/aleg_hrybouski/IdeaProjects/WebServices/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_aleg_hrybouski_IdeaProjects_WebServices_testng_xml - 2018.09.10 at 23h 57m 42s.xml">
       <configuration name="C:/Users/aleg_hrybouski/IdeaProjects/WebServices/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -401,6 +345,27 @@
       <configuration name="C:/Users/aleg_hrybouski/IdeaProjects/WebServices/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__Users_aleg_hrybouski_IdeaProjects_WebServices_testng_xml - 2018.09.11 at 18h 42m 02s.xml">
+      <configuration name="C:/Users/aleg_hrybouski/IdeaProjects/WebServices/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RestAssuredTest - 2018.09.11 at 21h 43m 12s.xml">
+      <configuration name="RestAssuredTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RestAssuredTest - 2018.09.11 at 21h 52m 42s.xml">
+      <configuration name="RestAssuredTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RestAssuredTest - 2018.09.11 at 21h 53m 05s.xml">
+      <configuration name="RestAssuredTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_aleg_hrybouski_IdeaProjects_WebServices_testng_xml - 2018.09.11 at 21h 56m 34s.xml">
+      <configuration name="C:/Users/aleg_hrybouski/IdeaProjects/WebServices/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_aleg_hrybouski_IdeaProjects_WebServices_testng_xml - 2018.09.11 at 21h 57m 07s.xml">
+      <configuration name="C:/Users/aleg_hrybouski/IdeaProjects/WebServices/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_aleg_hrybouski_IdeaProjects_WebServices_testng_xml - 2018.09.11 at 21h 57m 25s.xml">
+      <configuration name="C:/Users/aleg_hrybouski/IdeaProjects/WebServices/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_aleg_hrybouski_IdeaProjects_WebServices_testng_xml - 2018.09.11 at 22h 00m 10s.xml">
       <configuration name="C:/Users/aleg_hrybouski/IdeaProjects/WebServices/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -413,9 +378,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32963374" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32963374" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -433,6 +398,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/kjoy/RestAssuredTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/kjoy/RestAssuredTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -488,7 +477,7 @@
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -501,8 +490,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/kjoy/RestAssuredTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="524">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 
 public class RestAssuredTest {
 
-    LocalDateTime currentTime = LocalDateTime.now();
+
 
 
     @BeforeTest
@@ -25,7 +25,7 @@ public class RestAssuredTest {
     @Test
     public void checkStatusCode()
     {
-        System.out.println("Current DateTime: " + currentTime);
+        System.out.println("Current DateTime: " + LocalDateTime.now());
         Response response = RestAssured.when()
                 .get("https://jsonplaceholder.typicode.com/users")
                 .andReturn();
@@ -35,7 +35,7 @@ public class RestAssuredTest {
 
     @Test
     public void checkHeader(){
-        System.out.println("Current DateTime: " + currentTime);
+        System.out.println("Current DateTime: " + LocalDateTime.now());
 
         Response response = RestAssured.when()
                 .get("https://jsonplaceholder.typicode.com/users")
@@ -48,7 +48,7 @@ public class RestAssuredTest {
 
     @Test
     public void checkResponse(){
-        System.out.println("Current DateTime: " + currentTime);
+        System.out.println("Current DateTime: " + LocalDateTime.now());
 
         Response response = RestAssured.when()
                 .get("https://jsonplaceholder.typicode.com/users")
