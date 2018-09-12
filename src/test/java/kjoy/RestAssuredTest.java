@@ -6,7 +6,6 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.time.LocalDateTime;
@@ -15,12 +14,6 @@ import java.time.LocalDateTime;
 public class RestAssuredTest {
 
 
-
-
-    @BeforeTest
-    public void initTest() {
-    //RestAssured.baseURI  = "https://jsonplaceholder.typicode.com";
-    }
 
     @Test
     public void checkStatusCode()
@@ -55,9 +48,10 @@ public class RestAssuredTest {
                 .andReturn();
 
         ResponseBody body = response.getBody();
-        Post[] responsePosts = body.as(Post[].class);
-        System.out.println(responsePosts.length);
-        Assert.assertEquals(responsePosts.length, 10);
+        User[] responseUsers = body.as(User[].class);
+        System.out.println(responseUsers.length);
+        Assert.assertEquals(responseUsers.length, 10);
 
     }
 }
+
